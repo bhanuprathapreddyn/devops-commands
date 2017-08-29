@@ -7,7 +7,7 @@ yum install gcc
 	rpm -Uvh jdk-8u131-linux-x64.rpm
 	-- setup default location 
 	alternatives --install /usr/bin/java java /usr/java/latest/bin/java 200000
-	alternatives --install /usr/bin/java javac /usr/java/latest/bin/javac 200000
+	alternatives --install /usr/bin/javac javac /usr/java/latest/bin/javac 200000
 	alternatives --install /usr/bin/java jar /usr/java/latest/bin/jar 200000
 	-- set the java home env variable
 	cd /etc
