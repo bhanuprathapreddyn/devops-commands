@@ -1,5 +1,3 @@
-aravind8reddy@gmail.com
-sv9642@gmail.com
 
 su -
 yum install git
