@@ -38,7 +38,7 @@ git branch -a (shows all branches)
 git checkout -b development (creates new branch with the name development)
 git checkout master (switch to master branch)
 git merge development --no-ff (go to the branch with which we want to merge development branch and run this command, --no-ff is to retain commit comments after merging with other branch)
-
+git fetch origin
 
 To connect respository hosted on GitHub from your local machine, follow below steps
 
