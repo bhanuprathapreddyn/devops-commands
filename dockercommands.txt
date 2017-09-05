@@ -9,7 +9,7 @@
 		gpgkey=https://yum.dockerproject.org/gpg
 	-- save the file
 	yum update
-	yum install -y docker-engine
+	yum install -y docker
 	systemctl enable docker
 	systemctl start docker
 	-- confirm if docker is running
